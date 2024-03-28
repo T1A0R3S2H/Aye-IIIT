@@ -1,5 +1,9 @@
-import Image from "next/image";
+import React from 'react'
 
-export default function Home() {
-  return <h1>chal chalkar dikha</h1>;
+function hi() {
+  return (
+    <></>
+  )
 }
+
+export default hi
