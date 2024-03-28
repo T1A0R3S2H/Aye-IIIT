@@ -6,7 +6,7 @@ export function SparklesPreview() {
   return (
     <div className="h-screen flex items-center justify-center mt-20">
       <div className="h-[40rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
-        <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center text-white relative z-20">
+        <h1 className="md:text-9xl text-5xl lg:text-[10rem] font-bold text-center text-white relative z-20">
           AYE IIIT
         </h1>
         <div className="w-[40rem] h-40 relative">
