@@ -14,7 +14,7 @@ function Navbar({ className }: { className?: string }) {
   const handleClick = (id: string) => {
     const yOffset = -150; 
     const element = document.getElementById(id);
-    const y = element?.getBoundingClientRect().top + window.pageYOffset + yOffset;
+    const y = (element?.getBoundingClientRect()?.top ?? 0) + window.pageYOffset + yOffset; 
     window.scrollTo({ top: y, behavior: 'smooth' });
     setActive(id); // Set active menu item if needed
   };
