@@ -1,3 +1,6 @@
+// Ensure that this file is named properly, e.g., Navbar.jsx or Navbar.tsx
+// Make sure it's recognized as a React component file
+
 "use client";
 
 import React, { useState } from "react";
@@ -5,11 +8,11 @@ import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
 import { cn } from "@/utils/cn";
 import Link from "next/link";
 
-function navbar({ className }: { className?: string }) {
+function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
 
   const handleClick = (id: string) => {
-    const yOffset = -150; // Adjust this value to offset the height of your navbar
+    const yOffset = -150; 
     const element = document.getElementById(id);
     const y = element?.getBoundingClientRect().top + window.pageYOffset + yOffset;
     window.scrollTo({ top: y, behavior: 'smooth' });
@@ -26,6 +29,13 @@ function navbar({ className }: { className?: string }) {
         <button onClick={() => handleClick("members")}>Members</button>
         <button onClick={() => handleClick("faqs")}>FAQs</button>
         <button onClick={() => handleClick("gallery")}>Gallery</button>
+      </Menu>
+    </div>
+  );
+}
+
+export default Navbar;
+
         {/* <Link href="#members">
           <MenuItem
             setActive={setActive}
@@ -50,14 +60,5 @@ function navbar({ className }: { className?: string }) {
             item="Gallery"
           ></MenuItem>
         </Link> */}
-
-
-      </Menu>
-    </div>
-  );
-}
-
-export default navbar;
-
 
 
