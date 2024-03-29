@@ -26,7 +26,7 @@ export function DirectionAwareHoverDemo() {
   const imageUrl9 = "/manas.jpg";
 
   return (
-    <div className="">
+    <div id="members">
       <h1 className="mt-48 mb-16 md:text-9xl text-5xl lg:text-[8rem] font-bold justify-center text-center items-center text-orange-700">
         Members
       </h1>
