@@ -17,7 +17,7 @@ export function DirectionAwareHoverDemo() {
   const imageUrl4 = "/kanishq.jpg";
 
   const imageUrl5 = "/utkarsh.jpg";
-  const imageUrl6 = "/partik-pp.png";
+  const imageUrl6 = "/partik.jpg";
 
   const imageUrl7 = "/hitesh.jpg";
 
