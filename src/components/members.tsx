@@ -34,7 +34,7 @@ export function DirectionAwareHoverDemo() {
       <div className=" flex justify-center" style={{ width: "100%" }}>
         <div
           className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-2 sm:gap-4 md:gap-4 lg:gap-4 xl:gap-4"
-          style={{ width: "80%" }}
+          style={{ width: "75%" }}
         >
           <div className="h-[30rem] relative flex items-center justify-center">
             <DirectionAwareHover imageUrl={imageUrl1}>
