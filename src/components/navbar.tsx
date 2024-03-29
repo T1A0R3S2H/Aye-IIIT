@@ -43,8 +43,6 @@ function navbar({ className }: { className?: string }) {
             item="Gallery"
           ></MenuItem>
         </Link>
-
-        
       </Menu>
     </div>
   );
