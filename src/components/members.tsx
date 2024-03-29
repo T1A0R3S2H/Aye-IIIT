@@ -8,7 +8,7 @@ import { DirectionAwareHover } from "./ui/direction-aware-hover";
 // import imgTarsh from "../public/tarsh-pp.jpg";
 
 export function DirectionAwareHoverDemo() {
-  const imageUrl1 = "/aaryan.jpg";
+  const imageUrl1 = "/aaryann.jpg";
 
   const imageUrl2 = "/tarsh.jpg";
 
@@ -39,63 +39,67 @@ export function DirectionAwareHoverDemo() {
           <div className="h-[30rem] relative flex items-center justify-center">
             <DirectionAwareHover imageUrl={imageUrl1}>
               <p className="font-bold text-xl">Aaryan</p>
-              <p className="font-normal text-sm">$1299 / night</p>
+              <p className="font-normal text-sm">
+                Proud Member @AaryansWorldwide
+              </p>
             </DirectionAwareHover>
           </div>
 
           <div className="h-[30rem] relative flex items-center justify-center">
             <DirectionAwareHover imageUrl={imageUrl2}>
               <p className="font-bold text-xl">Tarsh</p>
-              <p className="font-normal text-sm">$1299 / night</p>
+              <p className="font-normal text-sm">ACP ka chota sa beta</p>
             </DirectionAwareHover>
           </div>
 
           <div className="h-[30rem] relative flex items-center justify-center">
             <DirectionAwareHover imageUrl={imageUrl3}>
               <p className="font-bold text-xl">Himanshu</p>
-              <p className="font-normal text-sm">$1299 / night</p>
+              <p className="font-normal text-sm">Push past your Limits</p>
             </DirectionAwareHover>
           </div>
 
           <div className="h-[30rem] relative flex items-center justify-center">
             <DirectionAwareHover imageUrl={imageUrl4}>
               <p className="font-bold text-xl">Kanishq</p>
-              <p className="font-normal text-sm">$1299 / night</p>
+              <p className="font-normal text-sm">Looksmaxxer</p>
             </DirectionAwareHover>
           </div>
 
           <div className="h-[30rem] relative flex items-center justify-center">
             <DirectionAwareHover imageUrl={imageUrl5}>
               <p className="font-bold text-xl">Utkarsh</p>
-              <p className="font-normal text-sm">$1299 / night</p>
+              <p className="font-normal text-sm">Top Mogger</p>
             </DirectionAwareHover>
           </div>
 
           <div className="h-[30rem] relative flex items-center justify-center">
             <DirectionAwareHover imageUrl={imageUrl6}>
               <p className="font-bold text-xl">Partik</p>
-              <p className="font-normal text-sm">$1299 / night</p>
+              <p className="font-normal text-sm">He's a Dear one</p>
             </DirectionAwareHover>
           </div>
 
           <div className="h-[30rem] relative flex items-center justify-center">
             <DirectionAwareHover imageUrl={imageUrl7}>
               <p className="font-bold text-xl">Hiteshwar</p>
-              <p className="font-normal text-sm">$1299 / night</p>
+              <p className="font-normal text-sm">Brand Ambassador of ✌️</p>
             </DirectionAwareHover>
           </div>
 
           <div className="h-[30rem] relative flex items-center justify-center">
             <DirectionAwareHover imageUrl={imageUrl8}>
               <p className="font-bold text-xl">Rohan</p>
-              <p className="font-normal text-sm">$1299 / night</p>
+              <p className="font-normal text-sm">Badal Saini</p>
             </DirectionAwareHover>
           </div>
 
           <div className="h-[30rem] relative flex items-center justify-center">
             <DirectionAwareHover imageUrl={imageUrl9}>
               <p className="font-bold text-xl">Manas</p>
-              <p className="font-normal text-sm">$1299 / night</p>
+              <p className="font-normal text-sm">
+                Doesn't wants the clock to hit 8
+              </p>
             </DirectionAwareHover>
           </div>
         </div>
