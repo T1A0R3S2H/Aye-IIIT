@@ -76,7 +76,7 @@ export function DirectionAwareHoverDemo() {
           <div className="h-[30rem] relative flex items-center justify-center">
             <DirectionAwareHover imageUrl={imageUrl6}>
               <p className="font-bold text-xl">Partik</p>
-              <p className="font-normal text-sm">He's a Dear one</p>
+              <p className="font-normal text-sm">He&#39;s a Dear one</p>
             </DirectionAwareHover>
           </div>
 
@@ -98,7 +98,7 @@ export function DirectionAwareHoverDemo() {
             <DirectionAwareHover imageUrl={imageUrl9}>
               <p className="font-bold text-xl">Manas</p>
               <p className="font-normal text-sm">
-                Doesn't wants the clock to hit 8
+                Doesn&#39;t wants the clock to hit 8
               </p>
             </DirectionAwareHover>
           </div>
