@@ -6,7 +6,7 @@ import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 export function InfiniteMovingCardsDemo() {
   return (
     <div>
-        <h1 className="mt-48 md:text-9xl sm:text-5xl lg:text-[8rem] font-bold justify-center text-center items-center text-orange-700">
+        <h1 className="mt-48 md:text-8xl text-5xl lg:text-[8rem] font-bold justify-center text-center items-center text-orange-700">
         FAQs
       </h1>
     <div className="h-[30rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">

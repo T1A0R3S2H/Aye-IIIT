@@ -12,22 +12,22 @@ export function DirectionAwareHoverDemo() {
 
   const imageUrl2 = "/tarsh.jpg";
 
-  const imageUrl3 = "/himanshu-pp.png";
+  const imageUrl3 = "/himanshu.jpg";
 
-  const imageUrl4 = "/kanishq-pp.png";
+  const imageUrl4 = "/kanishq.jpg";
 
-  const imageUrl5 = "/utkarsh-pp.png";
+  const imageUrl5 = "/utkarsh.jpg";
   const imageUrl6 = "/partik-pp.png";
 
-  const imageUrl7 = "/hitesh-pp.png";
+  const imageUrl7 = "/hitesh.jpg";
 
-  const imageUrl8 = "/rohan-pp.png";
+  const imageUrl8 = "/rohan.png";
 
-  const imageUrl9 = "/manas-pp.png";
+  const imageUrl9 = "/manas.jpg";
 
   return (
     <div className="">
-      <h1 className="mt-48 mb-16 md:text-9xl sm:text-5xl lg:text-[8rem] font-bold justify-center text-center items-center text-orange-700">
+      <h1 className="mt-48 mb-16 md:text-9xl text-5xl lg:text-[8rem] font-bold justify-center text-center items-center text-orange-700">
         Members
       </h1>
 

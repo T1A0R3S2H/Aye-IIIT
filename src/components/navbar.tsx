@@ -28,6 +28,14 @@ function navbar({ className }: { className?: string }) {
           ></MenuItem>
         </Link>
 
+        <Link href={"/FAQs"}>
+          <MenuItem
+            setActive={setActive}
+            active={active}
+            item="FAQs"
+          ></MenuItem>
+        </Link>
+
         <Link href={"/Gallery"}>
           <MenuItem
             setActive={setActive}
@@ -36,13 +44,7 @@ function navbar({ className }: { className?: string }) {
           ></MenuItem>
         </Link>
 
-        <Link href={"/FAQs"}>
-          <MenuItem
-            setActive={setActive}
-            active={active}
-            item="FAQs"
-          ></MenuItem>
-        </Link>
+        
       </Menu>
     </div>
   );
