@@ -48,7 +48,7 @@ export function DirectionAwareHoverDemo() {
           <div className="h-[30rem] relative flex items-center justify-center">
             <DirectionAwareHover imageUrl={imageUrl2}>
               <p className="font-bold text-xl">Tarsh</p>
-              <p className="font-normal text-sm">ACP ka chota sa beta</p>
+              <p className="font-normal text-sm">Chhota sa ladka</p>
             </DirectionAwareHover>
           </div>
 
