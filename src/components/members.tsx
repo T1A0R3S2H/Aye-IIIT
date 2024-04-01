@@ -21,7 +21,7 @@ export function DirectionAwareHoverDemo() {
 
   const imageUrl7 = "/hitesh.jpg";
 
-  const imageUrl8 = "/rohan.png";
+  const imageUrl8 = "/rohan-new.jpg";
 
   const imageUrl9 = "/manas-new.jpg";
 
